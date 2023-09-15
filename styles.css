@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.iphone {
+  width: 375px;
+  height: 700px;
+  background-color: #c70000;
+  border-radius: 30px;
+  margin: -2px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-button {
+  width: 50px;
+  height: 50px;
+  background-color: #a00000;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  left: calc(50% - 30px);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.inside_screen {
+  width: 70%;
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  justify-content: center;
+
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  margin: 0px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 6px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.search-bar button {
+  padding: 6px 20.5px;
+  background-color: #c70000;
+  color: #fff;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #a90202;
+}
+
+.logo {
+  max-width: 220px;
+  margin-top: -10px;
+}
+
+p {
+  text-transform: uppercase;
+}
+
+.pokeList,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  line-height: 21px;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sen {
+  padding-top: 10px;
+
+}
+
+section,
+a {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+ul,
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.pokeball-image {
+  background-image: url("img/pokeball.png");
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+li:hover .pokeball-image {
+  display: inline-block;
+}
+
+li p:hover ~ .pokeball-image {
+  display: inline-block;
+}

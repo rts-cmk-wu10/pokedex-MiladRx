@@ -1,0 +1,41 @@
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+
+li {
+    list-style-type: none;
+    text-transform: capitalize;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+.pokemon p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+p {
+    text-align: center;
+}
